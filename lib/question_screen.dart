@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class QuestionsScreen extends StatefulWidget {
-  const QuestionsScreen(void Function() startQuiz, {super.key});
+  const QuestionsScreen({super.key});
 
   @override
   State<QuestionsScreen> createState() {
