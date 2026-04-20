@@ -32,7 +32,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   @override
   Widget build(context) {
     final currentQuestion = questions[currentQuestionIndex];
-    final answers = currentQuestion.getShuffledAnswers();
+    final answers = currentQuestion.shuffledAnswers;
 
     return SizedBox(
       width: double.infinity,
