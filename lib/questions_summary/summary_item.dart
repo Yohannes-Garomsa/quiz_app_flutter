@@ -15,6 +15,7 @@ class SummaryItem extends StatelessWidget {
 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
+
       children: [
         QuestionIdentifier(
           isCorrectAnswer: isCorrectAnswer,
@@ -44,7 +45,7 @@ class SummaryItem extends StatelessWidget {
               Text(
                 itemData['correct_answer'] as String,
                 style: const TextStyle(
-                  color: Color.fromARGB(255, 181, 154, 246),
+                  color: Color.fromARGB(255, 53, 249, 141),
                 ),
               ),
             ],
