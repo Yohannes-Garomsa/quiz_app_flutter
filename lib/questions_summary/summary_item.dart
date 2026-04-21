@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:adv_basics/questions_summary/question_summary.dart';
 import 'package:adv_basics/questions_summary/question_identifier.dart';
 
 class SummaryItem extends StatelessWidget {
